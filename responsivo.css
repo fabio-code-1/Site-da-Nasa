@@ -1,0 +1,234 @@
+/* .col {
+    border: 1px solid red;
+}
+
+.container {
+    border: 1px blue dashed;
+}
+
+header {
+    border: 1px green dashed;
+}
+
+main {
+    border: 1px orange dashed;
+}
+
+footer {
+    border: 1px purple;
+}
+
+section{
+    border: 1px rgb(255, 0, 221) dashed;
+} */
+
+body {
+    background-color: black;
+}
+
+p {
+    color: white;
+}
+
+
+/* HEADER */
+
+header{
+    background-image: url(img/scene-with-planets.jpg);
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#rede_sociais a {
+    color: white;
+}
+
+#rede_sociais a:hover {
+    opacity: 50%;
+}
+
+#conteudo-header{
+    height: 100vh;
+}
+
+#one-row-header{
+    height: 70vh;
+}
+
+#header-text-h1{
+    position: sticky;
+    top: 100%;
+    font-size: 300px;
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+}
+
+#header-text-h2{
+    text-shadow: 0.1em 0.1em 0.01em rgb(0, 0, 0);
+    text-align: center;
+}
+
+#linha-table{
+    height: 20vh;
+}
+
+#table-header{
+    position: sticky;
+    top: 100%;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.1em 0.3em 0.1em black;
+    text-align: center;
+    font-weight: bold;
+}
+
+#table-header td{
+    font-size: 20px;
+}
+
+/* FIM HEADER */
+
+/* MAIN */
+
+.main-p-title{
+    color:rgb(216, 92, 92);
+    font-size: 20px;
+}
+
+.card{
+    text-align: center;
+}
+
+.card-body{
+    background-color: #012030;
+}
+
+.card-body a{
+    color: rgb(136, 86, 86);
+}
+
+.card-body button{
+    color: white;
+    background-color: rgb(168, 115, 115);
+}
+
+.card-title{
+    color: white;
+}
+
+.card-text{
+    color: gray;
+}
+
+#text-about{
+    padding-right: 20vw;
+}
+
+#size-table{
+    /* border: 1px solid rgb(0, 255, 13); */
+    height: auto;
+    width: 50vw;
+}
+
+#about-rocket{
+    
+    position: sticky;
+    height: 350px;
+    transform: rotate(-45deg);
+    z-index: -1;
+}
+
+.sistema-solar{
+    background-image: url(img/sistema-solar.jpeg);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    /* border: 1px solid red; */
+    height: 85vh;
+}
+
+#fister-row-cicle{
+    margin-bottom: 15vh;
+}
+
+.circulo{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+}
+
+.c1{
+    box-shadow: 0px 0px 18px 20px #72050A;
+}
+.c2{
+    box-shadow: 0px 0px 18px 20px #3A4D9A;
+}
+.c3{
+    box-shadow: 0px 0px 18px 20px #E8780F;
+}
+.c4{
+    box-shadow: 0px 0px 18px 20px;
+}
+
+
+/* FIM MAIN */
+
+
+/*----------------- PEQUENOS AJUSTES RESPONSIVOS -----------------*/
+@media only screen and (max-width: 500px) and (max-height:1300px) {
+    /* tabela do header */
+    #table-header td{
+        font-size: 13px;
+    }
+
+    /* texto do about */
+    #text-about{
+        padding-right: 0vw;
+    }
+
+    /* tabela do about */
+    #size-table{
+        width: 100%;
+    }
+    #table-about td{
+        font-size: 10px;
+    }
+
+
+    /* tamanho da imagem sistema solar */
+    .sistema-solar{
+        height: 65vh;
+    }
+
+    /*refente ao circulo do success */
+    .circulo{
+        height: 130px;
+        width: 130px;
+        margin: 3vh;
+    }
+
+    .circulo h2{
+        font-size: 16px;
+    }
+
+    .circulo h6{
+        font-size: 10px;
+    }
+
+    #fister-row-cicle{
+        margin-bottom: 5vh;
+    }
+    /* fim refente ao circulo do success */
+  }
+
+
+  /*----------------- PEQUENOS AJUSTES RESPONSIVOS TABLETS -----------------*/
+  @media only screen and (max-width: 1000px) and (max-height:1300px) {
+    /* tamanho da imagem sistema solar */
+    .sistema-solar{
+        height: 60vh;
+    }
+  }
