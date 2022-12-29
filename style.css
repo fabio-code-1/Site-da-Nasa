@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    overflow-x: hidden;
 }
 
 p {
@@ -7,7 +8,9 @@ p {
 }
 
 
-
+.container-fluid{
+    /* border: 2px solid rgb(19, 236, 30); */
+}
 /* HEADER */
 
 header{
@@ -16,10 +19,12 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+   
 }
 
 #rede_sociais a {
-    color: white;
+    
+    color: rgb(252, 172, 172);
 }
 
 #rede_sociais a:hover {
@@ -27,6 +32,7 @@ header{
 }
 
 #conteudo-header{
+    
     height: 100vh;
 }
 
@@ -35,6 +41,7 @@ header{
 }
 
 #header-text-h1{
+    
     position: sticky;
     top: 100%;
     font-size: 300px;
