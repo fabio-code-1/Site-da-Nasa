@@ -181,10 +181,13 @@ header{
 
 footer{
     background-image: url(img/marte.jpg);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
 }
+   
+
 
 /* FIM FOOTER */
 
