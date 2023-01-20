@@ -4,6 +4,10 @@
 ![header1](https://user-images.githubusercontent.com/117052477/213709592-c8cb7426-88ff-4db0-93ee-364b9319d98a.jpeg)
 
 
+## **VISITE O SITE**
+
+* https://fabio-code-1.github.io/Site-da-Nasa/
+
 ## Conteúdos
 * [Descrição](#descrição)  
 * [Como usar](#como-usar)
@@ -14,9 +18,7 @@
 ---------------
 
 ## Descrição
-Projeto de um site, onde tive que desenvolver o front-end, com intuito de práticar meus conhecimentos que adquirir durante os estudos de **HTML, CSS, BOOTSTRAPT 5** .
-O sistema consiste em um site que fornece informações e apresentação da empresa.
- 
+Projeto de um site, onde tive que desenvolver o front-end e responsivo para desktop e mobile, com intuito de práticar meus conhecimentos que adquirir durante os estudos de **HTML, CSS, BOOTSTRAPT 5**.
 
 
 #### Componentes do sistema
@@ -40,7 +42,7 @@ O sistema consiste em um site que fornece informações e apresentação da empr
 1. Ultilize o comando git e salve na **(pasta de preferencia)** ou **(pasta htdocs do xampp)**
 
 ~~~git
-git clone 
+git clone  https://github.com/fabio-code-1/Site-da-Nasa
 ~~~
 
 2. Execute o arquivo index
@@ -61,9 +63,8 @@ git clone
 
 ---------------
 
-
 ## Author
 _Fabio Setubal_
 * Instagram - <https://www.instagram.com/m.s.j_desenvolvedor/>
 
-[voltar inicio](#mercado-blue)
+[voltar inicio](#site-da-nasa)
